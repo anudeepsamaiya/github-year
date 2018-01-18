@@ -24,7 +24,7 @@ p = cv2.imread(sys.argv[1],0)
 p=p.transpose()
 i=0
 print(p)
-command = "git commit -a -m \"Commit-{d}\" --date={d}"
+command = "git commit -a -m \"Commit-{d}\" --date=\"{d}\""
 with open("temp.txt", "a") as myfile:
     for x in range(0, 52):
         for y in range(0,7):
@@ -34,6 +34,5 @@ with open("temp.txt", "a") as myfile:
                 #print(n)
                 myfile.write("1") #need changes for github commit
                 myfile.flush()
-                import pdb; pdb.set_trace()
                 call(command.format(d=str(gitlog_start+datetime.timedelta(x*7+y))), shell=True) #commit command
                 i=i+1
