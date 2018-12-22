@@ -2,7 +2,7 @@
 draw a grayscale bmp to your github yearly activity
 
 ### run with console arguments: file path for bmp and your github id.
-`python github-year <bmp/image/path> <user-id>`
+`python github-year.py <bmp/image/path> <user-id>`
 
 # How to use
  - Fork this repo, put a bmp image in your repository. bmp image should be 52x7.
