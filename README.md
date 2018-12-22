@@ -1,12 +1,12 @@
-# github-year-draw
+# [github-year-draw](https://anudeepsamaiya.github.io/github-year/)
 draw a grayscale bmp to your github yearly activity
 
-### run with console arguement: file path for bmp and your github id.
+### run with console arguments: file path for bmp and your github id.
+`python github-year <bmp/image/path> <user-id>`
 
 # How to use
- - Import neccessary modules with pip
- - create an empty git repository, put a bmp image and a "temp.txt" in your repository. bmp image should be 52x7
- - Copy the script to your git repository
+ - Fork this repo, put a bmp image in your repository. bmp image should be 52x7.
+ - Import neccessary modules with pip.
  - run the script with path to your image and your github id.
 
 # Why does this need my user id?
